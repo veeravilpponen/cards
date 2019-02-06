@@ -1,7 +1,7 @@
 <?php
 
 function connect_db() {
-	$ini = parse_ini_file('credentials.ini');
+	$ini = parse_ini_file('../../../credentials.ini');
 	$servername = $ini['servername'];
 	$username = $ini['username'];
 	$password = $ini['password'];

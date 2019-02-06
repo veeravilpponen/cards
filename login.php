@@ -1,4 +1,3 @@
-
 <?php
 if($_POST['password'] == 'password' && $_POST['username'] == 'username') {
         session_start();
@@ -14,4 +13,3 @@ function redirect($url) {
         die();
 }
 ?>
-
