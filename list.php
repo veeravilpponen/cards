@@ -25,7 +25,7 @@ if($_SESSION['username'] == 'username') {
 	print("<br><br>");
 
 	print("</html>");
-	mysqli_close($conn);
+	mysli_close($conn);
 } else {
 print("No access.");
 }
